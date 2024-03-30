@@ -37,7 +37,7 @@ jobs:
   deploy_to_minikube:
     runs-on: ubuntu-latest
     name: Deploy to Minikube
-    needs:[install_minikube, build_and_push_image]
+    needs: [install_minikube, build_and_push_image]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
