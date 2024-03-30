@@ -3,14 +3,13 @@
 root@DESKTOP-1NTM4L3:/home/stole/myapp/helmtodoapp# tree .
 .
 ├── Chart.yaml
+├── README.md
 ├── charts
 ├── templates
-│   ├── deployment.yml
-│   ├── namespace.yml
+│   ├── pod.yml
 │   └── service.yml
 ├── todoapp-0.1.0.tgz
 └── values.yaml
-
 
 
 ## Step 1: Prerequisites
