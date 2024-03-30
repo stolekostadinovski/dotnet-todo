@@ -1,4 +1,4 @@
-name: Minikube installation 
+name: Minikube installation Jobs 
 on:
   workflow_dispatch:
 jobs:
